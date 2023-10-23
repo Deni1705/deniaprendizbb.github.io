@@ -1,1 +1,99 @@
+/*Formatação do JS Hello Mundo JS*/
+#deni {
+    font-weight: 200;
+    font-style: italic;
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Formatação do horário de acesso da página*/
+#horario {
+    text-align: center;
+    font-size: large;
+}
+/* Formatação do fundo da página, usei o amarelo parecido com o do BB*/
+body {
+    background: white;
+    border-width: 20px;
+    border-style: groove;
+    border-color: #0072C6;
+    margin:0;
+}
+/* Formatacao do header inicial, dentro de uma div inicio = título principal*/
+.inicio{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: Georgia;
+}
+/*Formatação do título principal*/
+.titulo-principal{
+    padding-left: 20px;
+}
+/* Formatação da imagem, para mover o bloco para o centro */
+img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+/* Centralização da imagem # seletor identificador*/
+#banner {
+    width: 20%
+}
+/* Class principal, subtítulo h2*/
+.principal{
+    padding: 30px;
+    font-family: Georgia;
+}
+/*Centralização do subtítulo h2*/
+.titulo-centralizado{
+    text-align: center;
+    font-family: "Georgia";
+    text-transform: uppercase;
+}
+/*Formatação do tag p parágrafo*/
+p {
+	text-align:center;
+}
+/*seletor missão */
+#missao {
+    font-size:20px
+}
+/*marca o texto que está em ênfase*/
+em strong {
+    color: #FF0000;
+}
+.imagemfinal{
+    width: 10%;
+}
+.barralateral {
+    width: 300px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+}
+nav {
+    width: 400px;
+    position: absolute;
+    background-color: silver;
+    top:0px;
+    left: 0;
+}
+nav ul {
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0px;
+    left: 0;
+}
+#item {
+    list-style-type: none;
+    padding: 0;
+}
+
+#item {
+    margin-bottom: 5px;
 
